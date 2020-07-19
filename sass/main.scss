@@ -1,0 +1,118 @@
+@import './reset';
+@import './config';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    background-color: $bg-primary;
+    height: auto;
+    width: 100%;
+
+    .banner__main {
+        padding: 5rem 0;
+
+        &__text {
+            width: 50%;
+            .btn {
+                border-radius: 33px;
+                padding: 8px 18px;
+                margin-top: 1rem;
+                font-size: 12px;
+            }
+
+            h1 {
+                font-size: 61px;
+                font-weight: bold;
+                letter-spacing: 0.1rem;
+                line-height: 70px;
+            }
+            p {
+                padding: 10px 0px;
+                letter-spacing: 0.1rem;
+                line-height: 40px;
+            }
+        }
+
+        &__img {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+#counter {
+    img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+}
+#course {
+    height: auto;
+    width: 100%;
+    margin-top: 3rem;
+   h1{
+       padding: 2rem 0;
+   }
+    .card {
+        padding: 1rem 1rem;
+        border: none;
+        box-shadow: 5px 5px 10px lightgrey;
+
+        h5 {
+            font-weight: 500;
+            font-size: 24px;
+        }
+        p {
+            font-weight: normal;
+            font-size: 16px;
+        }
+        .btn {
+            border-radius: 33px;
+            padding: 8px 18px;
+            margin-top: 1rem;
+            font-size: 12px;
+        }
+    }
+}
+#testimonial {
+    height: auto;
+    width: 100%;
+    padding-bottom: 3rem;
+    .testimonial__main {
+        width: 70%;
+        margin: 0 auto;
+        img {
+            width: 20%;
+            padding: 0 1rem;
+            text-align: justify;
+        }
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+}
+footer {
+    width: 100%;
+    height: auto;
+    background-color: $bg_secondary;
+    padding: 3rem 0;
+    color: #fff;
+
+    .footer__main {
+        font-weight: normal;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    p {
+        @extend .footer__main
+    }
+}

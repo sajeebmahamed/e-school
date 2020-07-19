@@ -1,0 +1,208 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  background-color: #F0FFF0;
+  height: auto;
+  width: 100%;
+}
+
+header .banner__main {
+  padding: 5rem 0;
+}
+
+header .banner__main__text {
+  width: 50%;
+}
+
+header .banner__main__text .btn {
+  border-radius: 33px;
+  padding: 8px 18px;
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+header .banner__main__text h1 {
+  font-size: 61px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 70px;
+}
+
+header .banner__main__text p {
+  padding: 10px 0px;
+  letter-spacing: 0.1rem;
+  line-height: 40px;
+}
+
+header .banner__main__img {
+  width: 50%;
+}
+
+header .banner__main__img img {
+  width: 100%;
+}
+
+#counter img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+#course {
+  height: auto;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+#course h1 {
+  padding: 2rem 0;
+}
+
+#course .card {
+  padding: 1rem 1rem;
+  border: none;
+  -webkit-box-shadow: 5px 5px 10px lightgrey;
+          box-shadow: 5px 5px 10px lightgrey;
+}
+
+#course .card h5 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#course .card p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#course .card .btn {
+  border-radius: 33px;
+  padding: 8px 18px;
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+#testimonial {
+  height: auto;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+#testimonial .testimonial__main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#testimonial .testimonial__main img {
+  width: 20%;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+#testimonial .testimonial__main p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #282531;
+  padding: 3rem 0;
+  color: #fff;
+}
+
+footer .footer__main, footer p {
+  font-weight: normal;
+  font-size: 1rem;
+  font-weight: 100;
+}
+/*# sourceMappingURL=main.css.map */
